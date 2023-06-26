@@ -1,0 +1,3 @@
+[submodule "Arduino"]
+	path = esp8266
+	url = https://github.com/esp8266/Arduino.git
