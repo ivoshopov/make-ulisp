@@ -20,7 +20,7 @@ $(MAKECMDGOALS) all: default
         @:
 
 .PHONY: default
-default:
+default: .tools-setup
 	$(MAKE) $(MAKECMDGOALS)
 
 .tools-setup: $(ESP_DIR)/tools/get.py
